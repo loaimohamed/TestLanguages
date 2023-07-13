@@ -3,6 +3,14 @@ name = "rust_test"
 version = "0.1.0"
 edition = "2021"
 
+[target.x86_64-pc-windows-msvc]
+linker = "lld"
+rustflags = [
+  "-Lnative=/home/me/.xwin/crt/lib/x86_64",
+  "-Lnative=/home/me/.xwin/sdk/lib/um/x86_64",
+  "-Lnative=/home/me/.xwin/sdk/lib/ucrt/x86_64"
+]
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
