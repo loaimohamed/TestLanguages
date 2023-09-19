@@ -1,1 +1,1 @@
-(print "Hello World!")
+(defun main () (print "Hello world"))
