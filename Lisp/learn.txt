@@ -1,0 +1,5 @@
+Check:
+  https://lispcookbook.github.io/cl-cookbook/scripting.html
+  https://clisp.sourceforge.io/impnotes/image.html
+  https://clisp.sourceforge.io/impnotes/clisp.html#opt-exec-file
+  https://clisp.sourceforge.io/impnotes/quickstart.html
